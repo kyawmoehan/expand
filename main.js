@@ -7,10 +7,12 @@
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
                 btnText.innerHTML = "⌄"; 
+                btnText.style.display = "inline"; 
                 par.style.display = "none";
             } else {
                 dots.style.display = "none";
-                btnText.innerHTML = "⌃"; 
+                btnText.innerHTML = "⌃";
+                btnText.style.display = "block"; 
                 par.style.display = "inline";
             }   
         });

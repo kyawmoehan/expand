@@ -1,6 +1,11 @@
 .arrow {
     font-size: 40px;
     font-weight: bold;
+    display: inline;
 }
 
 #more {display: none;}
+
+.card-text{
+    display: inline;
+}
